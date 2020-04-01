@@ -5,8 +5,4 @@ This project uses publicly available weather and wind farm data to make a foreca
 
 This work is primarily done on Google Cloud Platform on a N1 virtual machine with 4 vCPUs, 15 GB RAM, and a NVIDIA Tesla K80 GPU. However, most moderately-speced personal computers should be able to run the models.
 
-To view an interactive demo ([Preview](/res/dashboard.png)), you can excute:
-
-
-streamlit run dashboard.py
-
+You can view a live web app that uses the XGBoost models to make hourly power forecast with real-time weather data for all major wind farms in South Australia [here](https://wpp-hw.herokuapp.com/).
